@@ -29,6 +29,11 @@ public class Main {
                 new String[]{"Gerar energia elétrica", "Aumentar a potência do motor", "Diminuir o consumo de combustível", "Regular a injeção eletrônica", "Controlar o sistema de escape"}, "A");
         questoes[7] = new Questao("8- Qual componente armazena a energia elétrica do carro?",
                 new String[]{"Alternador", "Bobina", "Bateria", "Comutador", "Dínamo"}, "C");
+        questoes[8] = new Questao("9- Qual gás é emitido pelos escapamentos dos carros e é prejudicial ao meio ambiente?",
+                new String[]{"Hidrogênio", "Dióxido de Carbono (CO2)", "Oxigênio", "Metano", "Argônio"}, "B");
+        questoes[9] = new Questao("10- O que é torque em um motor?",
+                new String[]{"A potência máxima do motor", "A capacidade de força gerada pelo motor", "A velocidade de rotação do motor", "A eficiência do combustível", "A resistência ao desgaste"}, "B");
+
 
 
 
