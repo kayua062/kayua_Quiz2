@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicReferenceArray;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +21,11 @@ public class Main {
                 new String[]{"Câmbio", "Diferencial", "Transmissão", "Virabrequim", "Alternador"}, "C");
         questoes[3] = new Questao("4- O que é um carro híbrido?",
                 new String[]{"Movido a gás natural", "Possui dois motores, um elétrico e um a combustão", "Funciona apenas com eletricidade", "Utiliza apenas etanol", "Movido a hidrogênio"}, "B");
+        questoes[4] = new Questao("5- Qual a principal função do óleo do motor?",
+                new String[]{"Limpar o motor", "Resfriar o motor", "Lubrificar as peças", "Aumentar a potência", "Diminuir a velocidade"}, "C");
+        questoes[5] = new Questao("6- O que significa a sigla RPM no painel do carro?",
+                new String[]{"Rotação Por Minuto", "Resistência do Pistão Médio", "Relação de Potência Máxima", "Regime de Pressão de Motor", "Rotação Perfeita do Motor"}, "A");
+
 
 
 
