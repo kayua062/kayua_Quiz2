@@ -25,6 +25,10 @@ public class Main {
                 new String[]{"Limpar o motor", "Resfriar o motor", "Lubrificar as peças", "Aumentar a potência", "Diminuir a velocidade"}, "C");
         questoes[5] = new Questao("6- O que significa a sigla RPM no painel do carro?",
                 new String[]{"Rotação Por Minuto", "Resistência do Pistão Médio", "Relação de Potência Máxima", "Regime de Pressão de Motor", "Rotação Perfeita do Motor"}, "A");
+        questoes[6] = new Questao("7- Qual é a função do alternador em um carro?",
+                new String[]{"Gerar energia elétrica", "Aumentar a potência do motor", "Diminuir o consumo de combustível", "Regular a injeção eletrônica", "Controlar o sistema de escape"}, "A");
+        questoes[7] = new Questao("8- Qual componente armazena a energia elétrica do carro?",
+                new String[]{"Alternador", "Bobina", "Bateria", "Comutador", "Dínamo"}, "C");
 
 
 
