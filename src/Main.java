@@ -37,6 +37,14 @@ public class Main {
                 new String[]{"Etanol", "Diesel", "Gasolina", "Gás Natural", "Biodiesel"}, "C");
         questoes[11] = new Questao("12- O que significa injeção eletrônica?",
                 new String[]{"Sistema que injeta combustível de forma controlada", "Sistema de refrigeração do motor", "Sistema de segurança das portas", "Sistema de controle do câmbio", "Sistema de navegação"}, "A");
+        questoes[12] = new Questao("13- Qual é a principal função do radiador?",
+                new String[]{"Aquecer o motor", "Refrigerar o motor", "Gerar eletricidade", "Aumentar a potência", "Diminuir a emissão de gases"}, "B");
+        questoes[13] = new Questao("14- Qual peça do carro é responsável por reduzir a emissão de gases poluentes?",
+                new String[]{"Catalisador", "Turbina", "Válvula EGR", "Filtro de Ar", "Resonador"}, "A");
+        questoes[14] = new Questao("15- O que significa a sigla ECU nos veículos?",
+                new String[]{"Electronic Control Unit", "Engine Cooling Utility", "Efficient Car Utility", "Energy Control Unit", "Engine Clean Utility"}, "A");
+
+
 
 
 
