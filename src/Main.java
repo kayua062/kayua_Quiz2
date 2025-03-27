@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.concurrent.atomic.AtomicReferenceArray;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,15 +43,15 @@ public class Main {
         questoes[14] = new Questao("15- O que significa a sigla ECU nos veículos?",
                 new String[]{"Electronic Control Unit", "Engine Cooling Utility", "Efficient Car Utility", "Energy Control Unit", "Engine Clean Utility"}, "A");
 
+        // Loop para fazer as perguntas
+        for (Questao questoe : questoes) {
+            questoe.escrevaQuestao();
+            String resposta = questoe.leiaResposta();
 
+            // Verificando se a resposta está correta
+            questoe.isCorreta(resposta);
 
-
-
-
-
-
-
-
-
+        }
     }
+
 }
