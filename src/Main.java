@@ -33,6 +33,11 @@ public class Main {
                 new String[]{"Hidrogênio", "Dióxido de Carbono (CO2)", "Oxigênio", "Metano", "Argônio"}, "B");
         questoes[9] = new Questao("10- O que é torque em um motor?",
                 new String[]{"A potência máxima do motor", "A capacidade de força gerada pelo motor", "A velocidade de rotação do motor", "A eficiência do combustível", "A resistência ao desgaste"}, "B");
+        questoes[10] = new Questao("11- Qual é o combustível mais comum usado em carros a combustão?",
+                new String[]{"Etanol", "Diesel", "Gasolina", "Gás Natural", "Biodiesel"}, "C");
+        questoes[11] = new Questao("12- O que significa injeção eletrônica?",
+                new String[]{"Sistema que injeta combustível de forma controlada", "Sistema de refrigeração do motor", "Sistema de segurança das portas", "Sistema de controle do câmbio", "Sistema de navegação"}, "A");
+
 
 
 
